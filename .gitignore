@@ -1,0 +1,25 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore app settings files (remove this if you want to track the production config only)
+appsettings.json
+appsettings.Development.json
+
+# Ignore Rider IDE files
+.idea/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore environment-specific files
+.env
